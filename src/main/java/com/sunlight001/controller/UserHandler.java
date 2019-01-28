@@ -16,6 +16,11 @@ public class UserHandler {
     @Autowired
     private UserRepository userRepository;
 
+    @RequestMapping("findAllUser")
+    public Collection<User> findAllUser(){
+        return userRepository.findAll();
+    }
+
     @GetMapping("/findAll")
     public Collection<User> findAll(){
         return userRepository.findAll();
