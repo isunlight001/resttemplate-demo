@@ -1,5 +1,5 @@
 本文是一个简单的spring-resttemplate的demo,里面有简单的增删改查.
-如果想使用resttemplate的话,可以从这里copy下项目!
+如果想使用resttemplate的话,可以从这里git clone下项目!
 
 **什么是REST？**
 
